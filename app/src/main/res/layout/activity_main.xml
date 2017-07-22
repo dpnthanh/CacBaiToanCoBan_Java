@@ -7,18 +7,30 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="@drawable/background">
     <LinearLayout
+        android:gravity="center"
         android:orientation="horizontal"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="0dp">
+        <ImageView
+            android:src="@drawable/logofpt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
 
     </LinearLayout>
     <LinearLayout
+        android:gravity="center"
         android:orientation="horizontal"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="0dp">
-
+        <TextView
+            android:textColor="#3d3d38"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:text="@string/easyMath"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
     </LinearLayout>
     <LinearLayout
         android:weightSum="2"

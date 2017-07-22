@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">CacBaiToanCoBan_Java</string>
+    <string name="easyMath">Toán đơn giản</string>
     <string name="bac_nhat">Phương trình bậc nhất</string>
     <string name="bac_hai">Phương trình bậc hai</string>
     <string name="max_min">Tìm Max Min</string>
