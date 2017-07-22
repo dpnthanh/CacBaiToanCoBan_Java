@@ -28,15 +28,15 @@ public class MaxMinActivity extends AppCompatActivity {
         btnKetQua.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int num1 = Integer.parseInt(edt1.getText().toString());
-                int num2 = Integer.parseInt(edt2.getText().toString());
-                int num3 = Integer.parseInt(edt3.getText().toString());
+                double num1 = Double.parseDouble(edt1.getText().toString());
+                double num2 = Double.parseDouble(edt2.getText().toString());
+                double num3 = Double.parseDouble(edt3.getText().toString());
 
-                int max = num1;
+                double max = num1;
                 max = max > num2 ? max : num2;
                 max = max > num3 ? max : num3;
 
-                int min = num1;
+                double min = num1;
                 min = min < num2 ? min : num2;
                 min = min < num3 ? min : num3;
 
