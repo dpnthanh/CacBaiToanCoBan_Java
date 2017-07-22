@@ -33,8 +33,9 @@ public class BacNhatActivity extends AppCompatActivity {
         btnKQ.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                double a = Double.parseDouble(edta.getText().toString());
-                double b = Double.parseDouble(edtb.getText().toString());
+
+                double a = Double.parseDouble(edta.getText().toString().trim());
+                double b = Double.parseDouble(edtb.getText().toString().trim());
 
                 if(a == 0.0){
                     if(b == 0.0){
