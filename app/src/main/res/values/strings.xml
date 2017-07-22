@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CacBaiToanCoBan_Java</string>
+    <string name="bac_nhat">Phương trình bậc nhất</string>
+    <string name="bac_hai">Phương trình bậc hai</string>
+    <string name="max_min">Tìm Max Min</string>
+    <string name="nguyen_to">Tìm số nguyên tố</string>
+    <string name="sum">Tổng từ 1 đến số N</string>
+    <string name="uoc_boi_chung">Ước chung LN Bội chung NN</string>
+    <string name="btnreturn">Trở về</string>
+    <string name="inputa">Giá trị a:</string>
+    <string name="inputb">Giá trị b:</string>
+    <string name="inputc">Giá trị c:</string>
+    <string name="num1">Số thứ nhất:</string>
+    <string name="num2">Số thứ hai:</string>
+    <string name="num3">Số trị thứ ba:</string>
+    <string name="numn">Số n</string>
+    <string name="btnTim">Tìm</string>
+    <string name="btnKetQua">Kết quả</string>
+    <string name="VoNghiem">Phương trình vô nghiệm</string>
+    <string name="VSNghiem">Phương trình vô số nghiệm</string>
+    <string name="CoNghiem">Phương trình có nghiệm: </string>
+    <string name="NghiemKep">Phương trình có nghiệm kép</string>
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background2">
+
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/txtreturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/btnreturn"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp" />
+
+    <TextView
+        android:textSize="30sp"
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nguyen_to"
+        android:layout_alignTop="@+id/txtreturn"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:hint="@string/num1"
+        android:id="@+id/edtnuma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@+id/t"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:hint="@string/num2"
+        android:id="@+id/edtnumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@+id/edtnuma"
+        android:layout_alignLeft="@+id/edtnuma"
+        android:layout_alignStart="@+id/edtnuma" />
+
+    <Button
+        android:id="@+id/btnKetQua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTim"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="163dp" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/txtKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:text=""
+        android:layout_alignTop="@+id/btnKetQua"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

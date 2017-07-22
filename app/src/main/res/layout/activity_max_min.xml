@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background2">
+
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/txtreturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/btnreturn"
+        android:layout_marginTop="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:textSize="30sp"
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/max_min"
+        android:layout_alignTop="@+id/txtreturn"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:hint="@string/num1"
+        android:id="@+id/edtnum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/t"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:hint="@string/num2"
+        android:id="@+id/edtnum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/edtnum1"
+        android:layout_alignLeft="@+id/edtnum1"
+        android:layout_alignStart="@+id/edtnum1" />
+    <EditText
+        android:hint="@string/num3"
+        android:id="@+id/edtnum3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:layout_below="@+id/edtnum2"
+        android:layout_alignLeft="@+id/edtnum2"
+        android:layout_alignStart="@+id/edtnum2"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/btnKetQua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max Min"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="163dp" />
+
+    <TextView
+        android:gravity="center"
+        android:textSize="25sp"
+        android:id="@+id/txtKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text=""
+        android:layout_alignTop="@+id/btnKetQua"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
